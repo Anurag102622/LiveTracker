@@ -27,7 +27,7 @@ const markers = {};
 
 socket.on("receive-location",(data)=>{
     const{id, latitude, longitude}= data;
-    map.setView([latitude,longitude],30);
+    map.setView([latitude,longitude],17);
     if(markers[id]){
         markers[id].setLatlng([latitude,longitude]);
     }
