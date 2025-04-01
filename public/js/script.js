@@ -18,7 +18,7 @@ navigator.geolocation.watchPosition(
     }
 );
 
-const map = L.map("map").setView([0, 0], 2);
+const map = L.map("map").setView([20, 79], 4);
 
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
