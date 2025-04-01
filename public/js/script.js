@@ -12,7 +12,9 @@ navigator.geolocation.watchPosition(
     { // Options should be here
         enableHighAccuracy: true,
         timeout: 5000,
-        maximumAge: 0
+        maximumAge: 0,
+        tap: true, 
+        touchZoom: true
     }
 );
 
